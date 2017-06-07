@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="?bookimage"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:textColor="?tvcolor"
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hello_world"
+        android:textSize="16dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:textColor="?tvcolor2"
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="随便测试"
+        android:textSize="16dp"
+        android:gravity="center"/>
+
+    <Button android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="日/夜间模式切换"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:onClick="btonclick"
+        android:layout_gravity="center"/>
+
+    <Button android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="跳转其他页面"
+        android:layout_below="@id/textView1"
+        android:layout_centerHorizontal="true"
+        android:onClick="btonclick2"
+        android:layout_gravity="center"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"/>
+
+</LinearLayout>
