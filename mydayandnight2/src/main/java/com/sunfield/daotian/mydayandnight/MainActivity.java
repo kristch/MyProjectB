@@ -22,12 +22,12 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-      /*  if (savedInstanceState == null) {
+        if (savedInstanceState == null) {
             // Set the local night mode to some value
             getDelegate().setLocalNightMode(
                     AppCompatDelegate.MODE_NIGHT_NO);
             recreate();
-        }*/
+        }
         getDelegate().setLocalNightMode(
                 AppCompatDelegate.MODE_NIGHT_AUTO);
         recreate();
