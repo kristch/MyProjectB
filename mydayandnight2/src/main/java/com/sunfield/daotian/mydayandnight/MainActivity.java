@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
         recreate();
         setContentView(R.layout.activity_main);
 
+
         //initMode();
     }
 
